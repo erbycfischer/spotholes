@@ -28,6 +28,10 @@ First update macports, then install libwebp:
     $sudo port selfupdate
     $sudo port install webp
   
+#### Install project local gems (from within the sPotholes directory):
+
+    $bundle install
+    
 #### Set up the database (from within the sPotholes directory):
 
     $rake db:create
